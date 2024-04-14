@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-WHEATHER APP- EXTREME CODERS@IIDT(BLACK BUCKS)</title>
+    <meta name="Description" content="THIS APP IS TO CHECK YOUR WEATHER REPORT IN YOUR URBAN AREAS">
+    <link rel="shortcut icon" href="weather.jpg" type="image/x-icon" >
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Weather App <i class="bi bi-sun-fill"></i></h1>
+        <div class="flex1">
+            <input type="text" placeholder="Enter the city name" id="place">
+            <button class="btn" onclick="check()">Search<i class="bi bi-search"></i></button>
+            
+        </div>
+        <i class="bi bi-cloud-sun-fill"></i>
+        <h1 id="degrees">0°C</h1>
+        <h1 id="name">Place</h1>
+        <div class="flex">
+
+            <div class="wind">
+                <i class="bi bi-wind"></i>
+                <h2 class="h2" id="windSpeed">0kmph</h2>
+                <h1 class="h1">wind speed</h1>
+            </div>
+            <div class="wind">
+                <i class="bi bi-hurricane"></i>
+                <h2 class="h2" id="Pressure">0Pr</h2>
+                <h1 class="h1">Pressure</h1>
+            </div>
+            <div class="wind">
+                <i class="bi bi-thermometer-high"></i>
+                <h2 class="h2" id="Max_Temp">0°C</h2>
+                <h1 class="h1">Max_Temp</h1>
+            </div>
+            <div class="wind">
+                <i class="bi bi-thermometer-low"></i>
+                <h2 class="h2" id="Min_Temp">0°C</h2>
+                <h1 class="h1">Min_Temp</h1>
+            </div>
+
+            <div class="wind">
+                <i class="bi bi-cloud-fog"></i>
+                <h2 class="h2" id="humidity">0%</h2>
+                <h1 class="h1">Humidity</h1>
+            </div>
+        </div>
+        <!-- -------------------------------------ROW-1---------------- -->
+        <div class="flex">
+
+            <div class="wind">
+                <i class="bi bi-cloud-fill"></i>
+                <h2 class="h2" id="Clouds">0</h2>
+                <h1 class="h1">Clouds</h1>
+            </div>
+            <div class="wind">
+                <i class="bi bi-water"></i>
+                <h2 class="h2" id="Sea_Level">0fts</h2>
+                <h1 class="h1">Sea Level</h1>
+            </div>
+            <div class="wind">
+
+                <i class="bi bi-caret-down-square-fill"></i>
+                <h2 class="h2" id="Ground_Level">0kmph</h2>
+                <h1 class="h1">Ground Level</h1>
+            </div>
+            <div class="wind">
+                <i class="bi bi-android"></i>
+                <h2 class="h2" id="ID">0</h2>
+                <h1 class="h1">ID</h1>
+            </div>
+
+            <div class="wind">
+                <i class="bi bi-eye-fill"></i>
+                <h2 class="h2" id="Visibility">0</h2>
+                <h1 class="h1">Visibility</h1>
+            </div>
+        </div>
+    </div>
+    <script src="app.js">
+    </script>
+</body>
+
+</html>
